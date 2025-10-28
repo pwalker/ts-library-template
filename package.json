@@ -1,6 +1,6 @@
 {
   "name": "@peterw-xyz/ts-library-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An example typescript library",
   "private": true,
   "main": "dist/index.js",
