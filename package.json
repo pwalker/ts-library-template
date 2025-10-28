@@ -2,16 +2,14 @@
   "name": "@peterw-xyz/ts-library-template",
   "version": "0.0.3",
   "description": "An example typescript library",
-  "private": true,
-  "main": "dist/index.js",
-  "type": "module",
-  "exports": {
-    "./package.json": "./package.json",
-    ".": {
-      "import": "./dist/index.js",
-      "default": "./dist/index.cjs"
-    }
+  "license": "MIT",
+  "author": {
+    "name": "Peter Walker",
+    "email": "peterw@suprafax.net",
+    "url": "https://peterw.xyz"
   },
+  "repository": "https://github.com/pwalker/ts-library-template",
+  "type": "module",
   "scripts": {
     "build": "tsdown",
     "test": "vitest run",
@@ -35,5 +33,12 @@
   "files": [
     "dist"
   ],
-  "packageManager": "pnpm@10.18.1"
+  "packageManager": "pnpm@10.18.1",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  }
 }
