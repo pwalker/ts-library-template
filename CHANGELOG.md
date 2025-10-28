@@ -1,5 +1,11 @@
 # @peterw-xyz/ts-library-template
 
+## 0.0.2
+
+### Patch Changes
+
+- da086dc: Initial release
+
 ## 0.0.1
 
 ### Patch Changes
