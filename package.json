@@ -14,12 +14,12 @@
   },
   "scripts": {
     "build": "tsdown",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "check-exports": "attw --pack .",
     "check-types": "tsc --noEmit",
-    "ci": "pnpm run build && pnpm run check-format && pnpm run test",
+    "ci": "pnpm run check-format && pnpm run check-types && pnpm run test && pnpm run build",
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci"
   },
@@ -28,8 +28,9 @@
     "@changesets/cli": "^2.29.7",
     "@tsconfig/node22": "^22.0.2",
     "prettier": "^3.6.2",
-    "tsdown": "^0.15.6",
-    "typescript": "^5.9.3"
+    "tsdown": "^0.15.11",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.4"
   },
   "files": [
     "dist"
