@@ -1,5 +1,11 @@
 # @peterw-xyz/ts-library-template
 
+## 0.0.3
+
+### Patch Changes
+
+- fdd6b68: Try to add github releases
+
 ## 0.0.2
 
 ### Patch Changes
