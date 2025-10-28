@@ -1,5 +1,15 @@
 # @peterw-xyz/ts-library-template
 
+## 0.1.0
+
+### Minor Changes
+
+- d073a12: Go esm only
+
+### Patch Changes
+
+- de2b658: Update package.json info
+
 ## 0.0.3
 
 ### Patch Changes
