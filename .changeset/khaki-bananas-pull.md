@@ -1,5 +1,5 @@
 ---
-"@peterw-xyz/ts-start-library": patch
+"@peterw-xyz/ts-starter-library": patch
 ---
 
 Rename repo
