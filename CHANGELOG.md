@@ -1,5 +1,11 @@
 # @peterw-xyz/ts-library-template
 
+## 0.2.0
+
+### Minor Changes
+
+- 8204905: Copy a reference set of github actions
+
 ## 0.1.2
 
 ### Patch Changes
