@@ -1,5 +1,5 @@
 {
-  "name": "@peterw-xyz/ts-library-template",
+  "name": "@peterw-xyz/ts-starter-library",
   "version": "0.1.0",
   "description": "An example typescript library",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "email": "peterw@suprafax.net",
     "url": "https://peterw.xyz"
   },
-  "repository": "https://github.com/pwalker/ts-library-template",
+  "repository": "https://github.com/pwalker/ts-starter-library",
   "type": "module",
   "scripts": {
     "build": "tsdown",
