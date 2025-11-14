@@ -1,5 +1,11 @@
 # @peterw-xyz/ts-library-template
 
+## 0.1.2
+
+### Patch Changes
+
+- 2a8cf6c: Fix github changesets action
+
 ## 0.1.1
 
 ### Patch Changes
