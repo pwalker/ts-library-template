@@ -18,8 +18,8 @@
     "check-exports": "attw --pack .",
     "check-types": "tsc --noEmit",
     "ci": "pnpm run check-format && pnpm run check-types && pnpm run test && pnpm run build",
-    "local-release": "changeset version && changeset publish",
-    "prepublishOnly": "npm run ci"
+    "release": "pnpm run build && changeset publish",
+    "local-release": "changeset version && changeset publish"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
