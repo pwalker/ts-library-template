@@ -1,5 +1,11 @@
 # @peterw-xyz/ts-library-template
 
+## 0.1.1
+
+### Patch Changes
+
+- 5d77a3c: Rename repo
+
 ## 0.1.0
 
 ### Minor Changes
